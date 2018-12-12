@@ -76,7 +76,7 @@ public class RtlViewPager extends ViewPager {
             adapter = new ReversingAdapter(adapter);
         }
         super.setAdapter(adapter);
-        setCurrentItem(0);
+        // setCurrentItem(0);
     }
 
     @Override
